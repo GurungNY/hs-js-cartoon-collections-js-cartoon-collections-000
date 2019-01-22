@@ -48,15 +48,14 @@ function findTheCheese (foods) {
 }
 
 
-  // var cheeses = ["cheddar", "gouda", "camembert"]
-  //
-  // for (var i=0; i < foods.length; i++) {
-  //   for (var ched = 0; ched < cheeses.length; ched++) {
-  //     if (cheeses[ched] === foods[i]) {
-  //       return foods[i];
-  //     }
-  //     else
-  //     return "no cheese!"
-  //   }
-  // }
-// }
+function wordsWithB (words) {
+  var words = []
+  
+  for (let i = 0; i < words.length; i++) {
+    if () {
+      
+    } 
+    
+  }
+  return words
+}
