@@ -49,13 +49,13 @@ function findTheCheese (foods) {
 
 
 function wordsWithB (words) {
-  var words = []
+  var wordsB = []
   
   for (let i = 0; i < words.length; i++) {
-    if () {
-      
+    if (words[i][0] === 'b') {
+      wordsB.push(words[i])
     } 
     
   }
-  return words
+  return wordsB
 }
