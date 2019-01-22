@@ -11,7 +11,9 @@ function dwarfRollCall(dwarves) {
 function summonCaptainPlanet(planeteerCalls){
   var cap = []
 
+
   for (let i=0; i < planeteerCalls.length; i++) {
+
     cap.push(planeteerCalls[i].toUpperCase() + "!")
   }
 
@@ -26,8 +28,10 @@ function longPlaneteerCalls(words) {
     return true
   }
   else
+
   return false
 }
+
 }
 
 function findTheCheese (foods) {
